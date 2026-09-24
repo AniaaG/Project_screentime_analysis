@@ -58,7 +58,7 @@ The function `make_treemap(df)` takes the cleaned data and returns an interactiv
 6. **Styling.** I used a dark background and white text to match the look of the whole app.
 ### Integration with the app
  
-In the Shiny server, the treemap is built from reactive expressions. The selected person, device (phone, laptop or all) and date range determine which files are loaded and cleaned, so the chart updates automatically whenever the user changes any of these inputs.
+In the Shiny server, the treemap is built from reactive expressions. The selected person, device (phone, laptop or all) and date range determine which files are loaded and cleaned, so the chart updates automatically whenever the user changes any of these inputs.\
 [Demo aplikacji](Video_Project.mp4) 
 ### What I learned
  
