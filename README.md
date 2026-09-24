@@ -50,12 +50,12 @@ The input is a raw CSV export from ActivityWatch, one file per person and device
  
 The function `make_treemap(df)` takes the cleaned data and returns an interactive `plotly` treemap:
  
-1. **Aggregation.** With `dplyr`, I sum the time spent per category and per app, and calculate each app's share of its category's time.
-2. **Readability.** To avoid dozens of tiny, unreadable tiles, only apps that make up at least 10% of their category's time are shown as separate tiles.
-3. **Hierarchy.** Categories are the parent nodes and apps are their children, so the user sees both the split between categories and the leading apps inside each one.
-4. **Encoding.** The tile size and the colour both represent time spent (in hours). I designed a custom blue colour scale, from dark navy for small values to light cyan for large ones, with a colour bar labelled in hours.
-5. **Interactivity.** Hovering over a tile shows the exact time in hours and the app's percentage share of its category. Clicking a category zooms into it (a built-in `plotly` treemap feature).
-6. **Styling.** I used a dark background and white text to match the look of the whole app.\
+1. **Aggregation:** With `dplyr`, I sum the time spent per category and per app, and calculate each app's share of its category's time.
+2. **Readability:** To avoid dozens of tiny, unreadable tiles, only apps that make up at least 10% of their category's time are shown as separate tiles.
+3. **Hierarchy:** Categories are the parent nodes and apps are their children, so the user sees both the split between categories and the leading apps inside each one.
+4. **Encoding:** The tile size and the colour both represent time spent (in hours). I designed a custom blue colour scale, from dark navy for small values to light cyan for large ones, with a colour bar labelled in hours.
+5. **Interactivity:** Hovering over a tile shows the exact time in hours and the app's percentage share of its category. Clicking a category zooms into it (a built-in `plotly` treemap feature).
+6. **Styling:** I used a dark background and white text to match the look of the whole app.\
 [application demo](Video_Project.mp4) 
 ### Integration with the app
  
