@@ -64,8 +64,5 @@ In the Shiny server, the treemap is built from reactive expressions. The selecte
 - cleaning and structuring real-world log data for visualisation,
 - designing a readable hierarchical chart and choosing what to leave out,
 - building reusable R functions and connecting them to a reactive Shiny app,
-- working on a shared codebase in a team.
-  
-  &nbsp;
-
+- working on a shared codebase in a team.\
 [application demo](Video_Project.mp4) 
