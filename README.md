@@ -55,7 +55,8 @@ The function `make_treemap(df)` takes the cleaned data and returns an interactiv
 3. **Hierarchy.** Categories are the parent nodes and apps are their children, so the user sees both the split between categories and the leading apps inside each one.
 4. **Encoding.** The tile size and the colour both represent time spent (in hours). I designed a custom blue colour scale, from dark navy for small values to light cyan for large ones, with a colour bar labelled in hours.
 5. **Interactivity.** Hovering over a tile shows the exact time in hours and the app's percentage share of its category. Clicking a category zooms into it (a built-in `plotly` treemap feature).
-6. **Styling.** I used a dark background and white text to match the look of the whole app.
+6. **Styling.** I used a dark background and white text to match the look of the whole app.\
+[application demo](Video_Project.mp4) 
 ### Integration with the app
  
 In the Shiny server, the treemap is built from reactive expressions. The selected person, device (phone, laptop or all) and date range determine which files are loaded and cleaned, so the chart updates automatically whenever the user changes any of these inputs.
@@ -64,5 +65,4 @@ In the Shiny server, the treemap is built from reactive expressions. The selecte
 - cleaning and structuring real-world log data for visualisation,
 - designing a readable hierarchical chart and choosing what to leave out,
 - building reusable R functions and connecting them to a reactive Shiny app,
-- working on a shared codebase in a team.\
-[application demo](Video_Project.mp4) 
+- working on a shared codebase in a team.
