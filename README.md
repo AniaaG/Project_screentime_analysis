@@ -1,5 +1,7 @@
 # Project_screentime_analysis
 This R Shiny app was created for the Data Visualization Techniques course at the Faculty of Mathematics and Information Science, Warsaw University of Technology.
+> [!NOTE]
+> This was a group project (3 authors). My part is described in the [My contribution](#my-contribution) section below.
  
 The app presents the results of an analysis of our screen time in the form of four charts:
  
